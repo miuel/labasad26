@@ -1,0 +1,34 @@
+/* Variables compartidas: colores, tipografía, tamaños, espaciado y animación. */
+:root {
+  --color-bg: #f1f1f1;
+  --color-card: #ffffff;
+  --color-text: #191308;
+  --color-muted: #4f4f4f;
+  --color-input: #d9d9d9;
+  --color-turquoise: #cbefef;
+  --color-yellow: #fffe04;
+  --color-light-green: #c4f7c2;
+  --color-violet: #9da8ea;
+  --color-pink: #f9b2e3;
+  --color-red: #FF1F1F;
+  --color-green: #01a882;
+  --font-display: "DM Serif Display", Georgia, serif;
+  --font-body: "DM Sans", Arial, sans-serif;
+  --size-xs: 12px;
+  --size-sm: 14px;
+  --size-base: 16px;
+  --size-lg: 20px;
+  --size-xl: 40px;
+  --size-xxl: 64px;
+  --size-title: var(--size-xl);
+
+  --gap-sm: 8px;
+  --base-gap: 1rem;
+  --duration: 250ms;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+
+  @media (min-width: 1024px) {
+    --size-base: 18px;
+    --size-title: var(--size-xxl);
+  }
+}

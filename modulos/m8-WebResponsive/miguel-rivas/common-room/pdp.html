@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#cbeFEF">
+  <meta name="description"
+    content="Soft Current: layered guitars, warm vocals and an intimate live music evening at Common Room.">
+  <title>Soft Current — Common Room</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400&family=DM+Serif+Display&display=swap"
+    rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <!-- Cabecera y navegación -->
+  <header class="header">
+    <a class="logo" href="index.html" aria-label="Common Room home">common room</a>
+    <nav aria-label="Main navigation" class="menu">
+      <a href="index.html#whats-on">What’s on</a>
+      <a href="#the-space">The space</a>
+      <a href="index.html#passes">Room passes</a>
+      <a href="index.html#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="mobile-button" type="button" popovertarget="mobile-menu" aria-label="Open menu">
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+    <nav class="mobile-menu" id="mobile-menu" popover aria-label="Main navigation">
+      <div class="mobile-menu-header">
+        <div class="mobile-menu-brand">
+          <span class="mobile-menu-logo" aria-hidden="true">common room</span>
+          <span class="mobile-menu-tagline">Independent theatre &amp; live music</span>
+        </div>
+        <button class="mobile-button" type="button" popovertarget="mobile-menu" popovertargetaction="hide"
+          aria-label="Close menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 6 6 18" />
+            <path d="m6 6 12 12" />
+          </svg>
+        </button>
+      </div>
+      <ul class="mobile-menu-list">
+        <li><a class="mobile-menu-link" href="index.html#whats-on"><span aria-hidden="true">01 — </span><span>What’s
+              on</span></a>
+        </li>
+        <li><a class="mobile-menu-link" href="#the-space"><span aria-hidden="true">02 — </span><span>The
+              space</span></a></li>
+        <li><a class="mobile-menu-link" href="index.html#passes"><span aria-hidden="true">03 — </span><span>Room
+              passes</span></a>
+        </li>
+        <li><a class="mobile-menu-link" href="index.html#testimonials"><span aria-hidden="true">04 —
+            </span><span>Testimonials</span></a></li>
+        <li><a class="mobile-menu-link" href="#contact"><span aria-hidden="true">05 — </span><span>Contact</span></a>
+        </li>
+      </ul>
+      <div class="mobile-menu-footer">
+        <a class="mobile-menu-cta" href="index.html#whats-on">Find your next show <svg aria-hidden="true"
+            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path d="M5 12h14M12 5l7 7-7 7" />
+          </svg></a>
+        <span>2026</span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Contenido principal -->
+  <main>
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="index.html">Home</a><span aria-hidden="true">/</span>
+      <a href="index.html#whats-on">What’s on</a><span aria-hidden="true">/</span>
+      <span aria-current="page">Soft Current</span>
+    </nav>
+    <!-- Detalle de la actuación -->
+    <section class="grid show" aria-labelledby="show-title">
+      <div class="gallery" role="group" aria-label="Soft Current gallery">
+        <input class="gallery-radio" type="radio" name="gallery" id="slide-1" checked aria-label="Image 1 of 2">
+        <input class="gallery-radio" type="radio" name="gallery" id="slide-2" aria-label="Image 2 of 2">
+        <figure class="gallery-slide" id="gallery-slide-1">
+          <img class="gallery-image" src="assets/images/card.webp" alt="Soft Current performance, view 1"
+            fetchpriority="high" width="960" height="640">
+          <div class="gallery-controls">
+            <label class="gallery-arrow gallery-prev" for="slide-2"><span class="visually-hidden">Previous
+                image</span><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m9 18 6-6-6-6" />
+              </svg></label>
+            <label class="gallery-arrow" for="slide-2"><span class="visually-hidden">Next image</span><svg
+                aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m9 18 6-6-6-6" />
+              </svg></label>
+          </div>
+          <figcaption class="gallery-count text-small">01 / 02</figcaption>
+        </figure>
+        <figure class="gallery-slide" id="gallery-slide-2">
+          <img class="gallery-image" src="assets/images/card4.webp" alt="Soft Current performance, view 2"
+            loading="lazy" width="1600" height="900">
+          <div class="gallery-controls">
+            <label class="gallery-arrow gallery-prev" for="slide-1"><span class="visually-hidden">Previous
+                image</span><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m9 18 6-6-6-6" />
+              </svg></label>
+            <label class="gallery-arrow" for="slide-1"><span class="visually-hidden">Next image</span><svg
+                aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m9 18 6-6-6-6" />
+              </svg></label>
+          </div>
+          <figcaption class="gallery-count text-small">02 / 02</figcaption>
+        </figure>
+      </div>
+
+      <div class="show-info">
+        <span class="eyebrow">LIVE MUSIC</span>
+        <h1 class="show-title" id="show-title">Soft Current</h1>
+        <p>€ 18 per person</p>
+        <p>An intimate evening of layered guitars, warm vocals and slow-building sound.</p>
+        <div class="show-meta">
+          <time datetime="2027-06-18T19:30">Friday 18 June 2027 · 7:30 pm</time>
+          <span class="text-small">Doors at 7 pm · 75 minutes · Unreserved seating</span>
+        </div>
+        <form class="ticket-form" action="#contact" method="get">
+          <input type="hidden" name="performance" value="Soft Current">
+          <label class="text-small" for="tickets">Number of tickets</label>
+          <div class="ticket-actions">
+            <input class="ticket-count" id="tickets" name="tickets" type="number" min="1" max="10" value="1" required>
+            <button class="product-button ticket-button" type="submit">Request tickets</button>
+          </div>
+          <span class="text-small">Total for 1 ticket: € 18</span>
+        </form>
+        <div class="show-about">
+          <h2>About the performance</h2>
+          <p>Quiet melodies grow into full-band passages, leaving space for every voice and instrument to be heard. This
+            seated performance is arranged for close listening.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Otras actuaciones -->
+    <section aria-labelledby="explore-title">
+      <div class="section-heading">
+        <h2 id="explore-title">Keep exploring</h2>
+      </div>
+      <div class="grid product-list">
+        <a class="product-card" href="#contact" aria-label="Ask about tickets for The Quiet Between">
+          <div class="product-content">
+            <span class="text-small">[02]&nbsp; CONTEMPORARY THEATRE</span>
+            <div class="product-details">
+              <div class="product-description">
+                <h3>The Quiet Between</h3>
+                <p>Two sisters return to their childhood home.</p>
+              </div>
+              <div class="product-meta">
+                <time datetime="2027-06-25">25 June 2027</time>
+                <p>€ 22</p>
+              </div>
+            </div>
+            <div>
+              <span class="product-button">Ask about tickets <svg aria-hidden="true" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M3 5h18v4a3 3 0 0 0 0 6v4H3v-4a3 3 0 0 0 0-6V5Z" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg></span>
+              <img class="product-image" src="assets/images/card2.webp" alt="Two performers on a theatre stage"
+                loading="lazy" width="960" height="783">
+            </div>
+          </div>
+        </a>
+        <a class="product-card" href="#contact" aria-label="Ask about tickets for City in Fragments">
+          <div class="product-content">
+            <span class="text-small">[03]&nbsp; MUSIC &amp; SPOKEN WORD</span>
+            <div class="product-details">
+              <div class="product-description">
+                <h3>City in Fragments</h3>
+                <p>City stories told through voices and electronic sound.</p>
+              </div>
+              <div class="product-meta">
+                <time datetime="2027-07-02">2 July 2027</time>
+                <p>€ 20</p>
+              </div>
+            </div>
+            <div>
+              <span class="product-button">Ask about tickets <svg aria-hidden="true" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M3 5h18v4a3 3 0 0 0 0 6v4H3v-4a3 3 0 0 0 0-6V5Z" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg></span>
+              <img class="product-image" src="assets/images/card3.webp" alt="A performer singing into a microphone"
+                loading="lazy" width="960" height="640">
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+    
+    <!-- Marquees -->
+    <div class="marquees" aria-hidden="true">
+      <div class="marquee marquee-common">
+        <div class="marquee-track">
+          <span class="marquee-text">common common common common common common common common common common common common
+            common common common common</span>
+          <span class="marquee-text">common common common common common common common common common common common common
+            common common common common</span>
+        </div>
+      </div>
+      <div class="marquee marquee-room">
+        <div class="marquee-track">
+          <span class="marquee-text">room room room room room room room room room room room room room room room
+            room</span>
+          <span class="marquee-text">room room room room room room room room room room room room room room room
+            room</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- The space: información y opciones -->
+    <section id="the-space" aria-labelledby="space-title">
+      <h2 class="about-heading" id="space-title">A shared space.<br>A different kind of evening.</h2>
+      <div class="grid about">
+        <p class="about-intro">COMMON ROOM brings artists and audiences close together. There’s room here to listen,
+          discover and feel part of something.</p>
+        <fieldset class="about-features">
+          <legend class="about-legend">Explore the space</legend>
+          <input class="about-radio" type="radio" name="about-feature" id="feature-1">
+          <input class="about-radio" type="radio" name="about-feature" id="feature-2" checked>
+          <input class="about-radio" type="radio" name="about-feature" id="feature-3">
+          <div class="about-options">
+            <label class="about-option" for="feature-1">01 - Up close</label>
+            <label class="about-option" for="feature-2">02 - Discover</label>
+            <label class="about-option" for="feature-3">03 - Feel at home</label>
+          </div>
+          <div class="about-panel" id="feature-panel-1">
+            <h3>Closer to the performance.</h3>
+            <p>A small venue where you can catch the quiet moments, see the expressions and feel the energy travel
+              across the room.</p>
+          </div>
+          <div class="about-panel" id="feature-panel-2">
+            <h3>Follow your curiosity.</h3>
+            <p>Our programme moves between live music, theatre and spoken word. Come for something you love and discover
+              something you didn’t expect.</p>
+          </div>
+          <div class="about-panel" id="feature-panel-3">
+            <h3>Make yourself at home.</h3>
+            <p>Come on your own or bring someone along. Our team is here to welcome you and help you settle in before
+              the lights go down.</p>
+          </div>
+          <video class="about-video" id="about-video-1" autoplay muted loop playsinline preload="none"
+            poster="assets/images/about1.webp" aria-hidden="true">
+            <source src="assets/video/about1.mp4" type="video/mp4">
+          </video>
+          <video class="about-video" id="about-video-2" autoplay muted loop playsinline preload="none"
+            poster="assets/images/about2.webp" aria-hidden="true">
+            <source src="assets/video/about2.mp4" type="video/mp4">
+          </video>
+          <video class="about-video" id="about-video-3" autoplay muted loop playsinline preload="none"
+            poster="assets/images/about3.webp" aria-hidden="true">
+            <source src="assets/video/about3.mp4" type="video/mp4">
+          </video>
+        </fieldset>
+      </div>
+    </section>
+
+    <!-- Formulario de contacto -->
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <h2 class="contact-heading" id="contact-title">There’s room for your questions.</h2>
+      <div class="grid contact-content">
+        <p class="contact-intro">Ask us about a show, a room pass or your visit. If you’re an artist with an idea to
+          share, we’d love to hear that too.</p>
+        <form class="contact-form" action="#contact" method="get">
+          <div class="form-field">
+            <label for="contact-name">Your name</label>
+            <input id="contact-name" name="name" type="text" autocomplete="name" placeholder="Enter your name" required>
+          </div>
+          <div class="form-field">
+            <label for="contact-email">Your email</label>
+            <input id="contact-email" name="email" type="email" autocomplete="email" placeholder="yourname@example.com"
+              required>
+          </div>
+          <div class="form-field">
+            <label for="contact-message">Your message</label>
+            <textarea id="contact-message" name="message" rows="4" placeholder="Tell us what you have in mind..."
+              required></textarea>
+          </div>
+          <label class="form-consent text-small">
+            <input type="checkbox" name="privacy-consent" required>
+            <span>I have read the <a href="index.html#privacy-policy">Privacy Policy</a> and agree to the processing of
+              my information to respond to this enquiry.</span>
+          </label>
+          <button class="form-button" type="submit">Send your message
+            <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="m22 2-7 20-4-9-9-4 20-7Z" />
+              <path d="M22 2 11 13" />
+            </svg>
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Marquees -->
+  <div class="marquees" aria-hidden="true">
+    <div class="marquee marquee-common">
+      <div class="marquee-track">
+        <span class="marquee-text">common common common common common common common common common common common common
+          common common common common</span>
+        <span class="marquee-text">common common common common common common common common common common common common
+          common common common common</span>
+      </div>
+    </div>
+    <div class="marquee marquee-room">
+      <div class="marquee-track">
+        <span class="marquee-text">room room room room room room room room room room room room room room room
+          room</span>
+        <span class="marquee-text">room room room room room room room room room room room room room room room
+          room</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="grid footer">
+    <div class="footer-brand">
+      <a class="footer-logo" href="index.html">COMMON ROOM</a>
+      <span class="footer-tagline">Independent theatre &amp; live music</span>
+    </div>
+    <p class="footer-line">Good evenings start with showing up.</p>
+    <div class="footer-copyright">
+      <span>Copyright</span>
+      <span>© 2027 COMMON ROOM. All rights reserved.</span>
+    </div>
+    <div class="footer-links">
+      <nav class="footer-legal" aria-label="Footer navigation">
+        <span>Legal links</span>
+        <a href="index.html#terms">· &nbsp;Terms &amp; Conditions</a>
+        <a href="index.html#privacy-policy">· &nbsp;Privacy Policy</a>
+      </nav>
+      <a class="footer-credit" href="https://miguelrivas.se">
+        <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 18V5a3 3 0 0 0-6 0 4 4 0 0 0-3 6 4 4 0 0 0 1 7 4 4 0 0 0 8 0Z" />
+          <path
+            d="M12 5a3 3 0 0 1 6 0 4 4 0 0 1 3 6 4 4 0 0 1-1 7 4 4 0 0 1-8 0M7 9a3 3 0 0 1-3-3m13 3a3 3 0 0 0 3-3M7 14a3 3 0 0 0-3 3m13-3a3 3 0 0 1 3 3" />
+        </svg>
+        <span>miguelrivas.se</span>
+      </a>
+    </div>
+  </footer>
+</body>
+
+</html>
