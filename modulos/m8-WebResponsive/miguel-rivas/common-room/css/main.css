@@ -1,0 +1,6 @@
+/* Entrada de estilos: tokens, base y estilos reutilizables antes de las secciones. */
+@import url("tokens.css");
+@import url("base.css");
+@import url("utilities.css");
+@import url("components.css");
+@import url("sections.css");
